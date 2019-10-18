@@ -1,0 +1,13 @@
+section#about {
+  height: 20em;
+  margin: 2em 0;
+  background: grey;
+}
+
+section#about p:first-letter {
+  font-weight: bold;
+}
+
+*::selection {
+  background: limegreen;
+}

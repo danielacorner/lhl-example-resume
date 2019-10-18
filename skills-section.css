@@ -1,0 +1,27 @@
+.skill-flex-container {
+  display: flex;
+  align-items: center;
+}
+.skill-flex-container meter {
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+.meter-div {
+  display: flex;
+}
+.child-1,
+.child-2 {
+  height: 100%;
+  background: purple;
+}
+.child-2 {
+  background: limegreen;
+}
+
+.skill-flex-container .child-1 {
+  width: 80%;
+}
+.skill-flex-container .child-2 {
+  width: 20%;
+}
